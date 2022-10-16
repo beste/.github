@@ -13,9 +13,9 @@ labels:
   - name: duplicate 👯
     color: '#FBCA04'
     oldname: duplicate
-  - name: feature-request 🙏🏻
+  - name: enhancement 🙏🏻
     color: '#FBCA04'
-    oldname: enhancement
+    oldname: feature-request
   - name: github-sponsor ❤️
     color: '#815543'
   - name: needs-more-info 🕵🏼
