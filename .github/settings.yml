@@ -1,7 +1,4 @@
 # https://probot.github.io/apps/settings/
 
-allow_squash_merge: true
-allow_merge_commit: false
-allow_rebase_merge: true
 default_branch: main
 has_wiki: false
