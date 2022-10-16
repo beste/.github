@@ -5,20 +5,3 @@ allow_merge_commit: false
 allow_rebase_merge: true
 default_branch: main
 has_wiki: false
-
-labels:
-  - name: 'bug 🐞'
-    color: '#FC2929'
-    oldname: bug
-  - name: duplicate 👯
-    color: '#FBCA04'
-    oldname: duplicate
-  - name: enhancement 🙏🏻
-    color: '#FBCA04'
-    oldname: feature-request
-  - name: github-sponsor ❤️
-    color: '#815543'
-  - name: needs-more-info 🕵🏼
-    color: '#f3ffa8'
-  - name: wont-fix 🙅🏼
-    color: '##EDEDED'
