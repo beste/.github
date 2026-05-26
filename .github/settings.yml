@@ -6,6 +6,22 @@ repository:
   has_wiki: false
 
   allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: false
+  delete_branch_on_merge: true
+
+branches:
+  - name: default
+    protection:
+      required_pull_request_reviews: null
+      required_status_checks:
+        strict: true
+        contexts:
+          - "{{EXTERNALLY_DEFINED}}"
+      enforce_admins: true
+      required_linear_history: true
+      allow_force_pushes: false
+      restrictions: null
 
 labels:
   - name: "bug"
