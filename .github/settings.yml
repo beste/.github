@@ -5,5 +5,28 @@ repository:
   has_wiki: false
   allow_merge_commit: false
   allow_squash_merge: true
-  allow_rebase_merge: false
+  allow_rebase_merge: true
+  allow_auto_merge: true
   delete_branch_on_merge: true
+
+labels:
+  - name: bug 🐞
+    old_name: bug
+    color: d73a4a
+    description: Something is not working
+  - name: dependencies 📦
+    old_name: dependencies
+    color: 0366d6
+    description: Pull requests that update a dependency
+  - name: duplicate 👯
+    old_name: duplicate
+    color: cfd3d7
+    description: This issue or pull request already exists
+  - name: feature-request ✨
+    old_name: feature-request 🙏🏻
+    color: 1d76db
+    description: New feature or request
+  - name: security 🔒
+    old_name: security
+    color: b60205
+    description: Security-related issue or update
